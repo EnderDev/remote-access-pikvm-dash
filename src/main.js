@@ -14,7 +14,7 @@ server.get("/", function (request, reply) {
     reply.send({ hello: 'world' })
 })
 
-server.listen({ port: process.env.PORT || 80 }, function (err, address) {
+server.listen({ port: process.env.PORT || 80, host: "0.0.0.0" }, function (err, address) {
     if (err) {
         server.log.error(err);
         process.exit(1)

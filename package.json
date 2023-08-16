@@ -1,0 +1,19 @@
+{
+  "name": "remote-access-pikvm-dash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/EnderDev/remote-access-pikvm-dash",
+  "author": "EnderDev <kieran@dothq.org>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/main.js"
+  },
+  "dependencies": {
+    "@fastify/http-proxy": "^9.2.1",
+    "fastify": "^4.21.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
